@@ -1,0 +1,103 @@
+#who_we_are {
+  background-image: url(../images/who-we-are-background.png);
+}
+#team {
+  padding: 95px 0 60px;
+}
+#team .container {
+  max-width: 1094px;
+}
+#team .col-12 {
+  margin-bottom: 53px;
+  padding: 0 25px;
+}
+#team .row {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.team-single {
+  cursor: pointer;
+}
+.team-single h3 {
+  margin-top: 20px;
+}
+.team-single img {
+  width: 100%;
+  border-radius: 20px;
+}
+.modal-content {
+  background: #002b5c;
+  border-radius: 40px;
+}
+.modal-header {
+  border: none;
+  padding-bottom: 0;
+}
+.btn-close {
+  margin: 0 !important;
+  margin-left: auto !important;
+  box-shadow: none !important;
+}
+.team-modal {
+  display: flex;
+  align-items: center;
+}
+.team-modal__img {
+  flex-basis: 320px;
+  max-width: 320px;
+}
+.team-modal__info {
+  flex: 1;
+  padding-left: 52px;
+}
+.team-modal__info h3 {
+  font-size: 42px;
+  margin-bottom: 2px;
+}
+.team-modal__info span {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+  display: block;
+}
+.big-text {
+  margin-top: 34px;
+}
+.modal-body {
+  padding: 13px 55px 60px;
+}
+@media (max-width: 1024px) {
+  .team-modal {
+    flex-direction: column;
+    text-align: left;
+  }
+  .team-modal > div {
+    flex-basis: 100%;
+    flex-grow: 1;
+    max-width: 100%;
+    width: 100%;
+  }
+  .team-modal__img {
+    margin-bottom: 25px;
+  }
+  .modal-body {
+    padding: 13px 20px 35px;
+  }
+  .team-modal__info {
+    padding-left: 0;
+  }
+  .modal-dialog {
+    max-width: 90% !important;
+  }
+}
+@media (max-width: 767px) {
+  #team {
+    padding: 60px 0 25px;
+  }
+  .modal-content {
+    border-radius: 20px;
+  }
+  .modal-dialog {
+    max-width: 100% !important;
+  }
+}

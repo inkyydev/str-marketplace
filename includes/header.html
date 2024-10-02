@@ -1,0 +1,42 @@
+<header>
+  <div class="container">
+    <div class="main-nav">
+      <div class="main-nav__logo">
+        <a href="/">
+          <img src="../images/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="main-nav__menu">
+        <a href="../who-we-are">Who We Are</a>
+        <a href="../work-with-us">Work With Us</a>
+        <a href="../how-it-works">How it Works</a>
+        <a href="mailto:info@strmarketplace.com" class="btn-all">Contact Us</a>
+      </div>
+      <div class="main-nav__contact">
+        <a href="mailto:info@strmarketplace.com" class="btn-all">
+          Contact Us
+        </a>
+      </div>
+      <div class="main-nav__hamburger">
+        <span class="line-1"></span>
+        <span class="line-2"></span>
+        <span class="line-3"></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  $(document).ready(function () {
+    $(".main-nav__hamburger").on("click", function () {
+      $(".main-nav__menu").toggleClass("active");
+      $(this).toggleClass("active");
+      $("body").toggleClass("active");
+    });
+
+    $(".main-nav__menu a").on("click", function () {
+      $(".main-nav__menu").toggleClass("active");
+      $("body").toggleClass("active");
+    });
+  });
+</script>

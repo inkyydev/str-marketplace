@@ -1,0 +1,127 @@
+#work_with_us {
+  background-image: url(../images/work-with-us.png);
+}
+.work-with-us p:first-of-type {
+  margin-bottom: 15px;
+}
+.work-with-us p {
+  max-width: 455px;
+}
+#why_work_with_us {
+  padding: 130px 0 110px;
+}
+#why_work_with_us h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+#why_work_with_us .col-12 {
+  margin-bottom: 24px;
+}
+.work-single {
+  background: #0c2849;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 20px;
+  padding: 30px 30px 40px;
+  transition: all 0.2s ease;
+}
+.work-single:hover {
+  background: var(--white-color);
+}
+.work-single:hover .work-single__image {
+  background: var(--secondary-color);
+}
+.work-single__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+}
+.work-single__image {
+  max-width: 75px;
+  flex-basis: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+.work-single__title {
+  flex: 1;
+  padding-left: 24px;
+}
+.work-single:hover h4 {
+  color: var(--main-color);
+}
+.work-single__title h4 {
+  margin-bottom: 0;
+  transition: all 0.2s ease;
+}
+.work-single:hover p {
+  color: #818181;
+}
+.work-single__title p {
+  transition: all 0.2s ease;
+}
+#our_partners {
+  padding-bottom: 112px;
+}
+.partners {
+  margin-top: 50px;
+}
+.custom-arrows {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 14px;
+}
+.custom-arrows a {
+  background: #0c2849;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.custom-arrows a:hover {
+  background: #fff;
+}
+.custom-arrows a:hover svg {
+  filter: invert(1);
+}
+.custom-arrows a svg {
+  transition: all 0.2s ease;
+}
+.owl-nav {
+  display: none;
+}
+@media (max-width: 767px) {
+  .work-single {
+    padding: 30px 20px 35px;
+  }
+  .work-single__title {
+    padding-left: 15px;
+  }
+  #why_work_with_us {
+    padding: 60px 0 50px;
+  }
+  #why_work_with_us h2 {
+    margin-bottom: 30px;
+  }
+  .custom-arrows {
+    justify-content: center;
+  }
+  #our_partners h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .partners {
+    margin-top: 30px;
+  }
+  #our_partners {
+    padding-bottom: 80px;
+  }
+}

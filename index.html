@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Strmarketplace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/homepage.css" />
+  </head>
+
+  <body>
+    <div class="fl-page">
+      <div id="header"></div>
+
+      <main>
+        <section id="hero">
+          <div class="container">
+            <div class="hero-wrapper">
+              <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                  <div class="marketplace-heading">
+                    <h1>Marketplaces For Seat Transfers</h1>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="marketplaces-content">
+                    <p>
+                      The world’s largest set of Websites for seat location
+                      transfers. We build and operate marketplaces, in
+                      partnership with sports teams and venues, for the transfer
+                      of seat licenses, seat location rights, wait list
+                      positions and RV/camping locations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="license-wrapper">
+            <div class="container">
+              <h4>Looking to buy or sell a seat license?</h4>
+              <div class="search-wrapper">
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Type to search partners"
+                  autocomplete="off"
+                />
+                <div class="results">
+                  <ul></ul>
+                </div>
+              </div>
+              <div class="license-category-switcher">
+                <a href="#" class="active" data-tab="nfl">NFL</a>
+                <a href="#" data-tab="mlb">MLB</a>
+                <a href="#" data-tab="nba">NBA</a>
+                <a href="#" data-tab="mls">MLS</a>
+                <a href="#" data-tab="racing">Racing</a>
+              </div>
+              <div class="license-switcher-elements">
+                <!-- <div class="no-results"></div> -->
+                <div class="license-all active nfl">
+                  <div class="license-single">
+                    <a
+                      href="https://falcons.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/atalanta-falcons.svg"
+                          alt="atalanta-falcons"
+                        />
+                      </div>
+                      <h5>Atlanta Falcons</h5>
+                      <p>Falcon's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://ravens.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/baltimore-ravens.svg"
+                          alt="baltimore-ravens"
+                        />
+                      </div>
+                      <h5>Baltimore Ravens</h5>
+                      <p>Raven's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://panthers.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/carolina-panthers.svg"
+                          alt="carolina-panthers"
+                        />
+                      </div>
+                      <h5>Carolina Panthers</h5>
+                      <p>Panther's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a href="https://bears.strmarketplace.com/" target="_blank">
+                      <div class="license-single__img">
+                        <img
+                          src="images/chicago-bears.svg"
+                          alt="chicago-bears"
+                        />
+                      </div>
+                      <h5>Chicago Bears</h5>
+                      <p>Bear's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://bengals.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/houston-bengals.svg"
+                          alt="houston-bengals"
+                        />
+                      </div>
+                      <h5>Cincinnati Bengals</h5>
+                      <p>Bengal's COAs Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://browns.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/cleveland-browns.png"
+                          alt="cleveland-browns"
+                        />
+                      </div>
+                      <h5>Cleveland Browns</h5>
+                      <p>Brown's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://cowboys.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img src="images/dallas-cowboys.svg" alt="cowboys" />
+                      </div>
+                      <h5>Dallas Cowboys</h5>
+                      <p>Cowboys Seat Option Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://texans.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/houston-texans.svg"
+                          alt="houston-texans"
+                        />
+                      </div>
+                      <h5>Houston Texans</h5>
+                      <p>PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://raiders.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/las-vegas-raiders.svg"
+                          alt="las-vegas-raiders"
+                        />
+                      </div>
+                      <h5>Las Vegas Raiders</h5>
+                      <p>Raider's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <!-- <div class="license-single">
+                    <a
+                      href="https://chargers.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/los-angeles-chargers.svg"
+                          alt="los-angeles-chargers"
+                        />
+                      </div>
+                      <h5>Los Angeles Chargers</h5>
+                    </a>
+                  </div> -->
+                  <div class="license-single">
+                    <a href="https://rams.strmarketplace.com/" target="_blank">
+                      <div class="license-single__img">
+                        <img
+                          src="images/los-angeles-rams.svg"
+                          alt="los-angeles-rams"
+                        />
+                      </div>
+                      <h5>Los Angeles Rams</h5>
+                      <p>Ram's SSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://vikings.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/minnesota-vikings.svg"
+                          alt="minnesota-vikings"
+                        />
+                      </div>
+                      <h5>Minnesota Vikings</h5>
+                      <p>Viking's SBL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://nygiants.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/new-york-giants.svg"
+                          alt="new-york-giants"
+                        />
+                      </div>
+                      <h5>New York Giants</h5>
+                      <p>Giant's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a href="https://jets.strmarketplace.com/" target="_blank">
+                      <div class="license-single__img">
+                        <img
+                          src="images/new-york-jets.png"
+                          alt="new-york-jets"
+                        />
+                      </div>
+                      <h5>New York Jets</h5>
+                      <p>Jet's PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://eagles.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/philadelphia-eagles.svg"
+                          alt="philadelphia-eagles"
+                        />
+                      </div>
+                      <h5>Philadelphia Eagles</h5>
+                      <p>Eagle's SBL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://steelers.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img src="images/steelers.svg" alt="steelers" />
+                      </div>
+                      <h5>Pittsburgh Steelers</h5>
+                      <p>Steeler's SBL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://vikings.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img src="images/san-fran.svg" alt="levis-stadium" />
+                      </div>
+                      <h5>San. Fran. 49ers</h5>
+                      <p>Levi Stadium SBL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://seahawks.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/seattle-seahawks.svg"
+                          alt="seattle-seahwaks"
+                        />
+                      </div>
+                      <h5>Seattle Seahawks</h5>
+                      <p>Seahawk's CSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://titans.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/tennesse-titans.svg"
+                          alt="tennesse-titans"
+                        />
+                      </div>
+                      <h5>Tennessee Titans</h5>
+                      <p>PSL Marketplace</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="license-all mlb">
+                  <div class="license-single">
+                    <a
+                      href="https://stlcardinals.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/st-louis-cardinals.svg"
+                          alt="st.louis"
+                        />
+                      </div>
+                      <h5>St.louis Cardinals</h5>
+                      <p>Cardinal's Founders Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://sfgiants.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/san-francisco-giants.svg"
+                          alt="san-francisco-giants"
+                        />
+                      </div>
+                      <h5>San Francisco Giants</h5>
+                      <p>Giant's CSL Marketplace</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="license-all nba">
+                  <div class="license-single">
+                    <a
+                      href="https://warriors.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img src="images/golden-state.svg" alt="golden-state" />
+                      </div>
+                      <h5>Golden State Warriors</h5>
+                      <p>Warrior's Membership Marketplace</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="license-all mls">
+                  <div class="license-single">
+                    <a
+                      href="https://charlottefc.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img src="images/charlotte-fc.svg" alt="charlotte-fc" />
+                      </div>
+                      <h5>Charlotte FC</h5>
+                      <p>Charlotte FC PSL Marketplace</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="license-all racing">
+                  <div class="license-single">
+                    <a
+                      href="https://kansasspeedway.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/kansas-speedway.svg"
+                          alt="kansas-speedway"
+                        />
+                      </div>
+                      <h5>Kansas Speedway</h5>
+                      <p>Kansas Speedway PASS Rights Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://kentuckyderby.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/kentucky-derby.svg"
+                          alt="kentucky-derby"
+                        />
+                      </div>
+                      <h5>Kentucky Derby</h5>
+                      <p>Kentucky Derby PSL Marketplace</p>
+                    </a>
+                  </div>
+                  <div class="license-single">
+                    <a
+                      href="https://texasspeedway.strmarketplace.com/"
+                      target="_blank"
+                    >
+                      <div class="license-single__img">
+                        <img
+                          src="images/texas-speedway.svg"
+                          alt="texas-motor-speedway"
+                        />
+                      </div>
+                      <h5>Texas Motor Speedway</h5>
+                      <p>Texas Motor Speedway PSL Marketplace</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <div class="container">
+            <div class="about-wrapper">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-5 col-md-6">
+                  <div class="about-all who-we-are">
+                    <h2>Who We Are</h2>
+                    <p>
+                      STR operates the world’s largest set of Websites for seat
+                      location transfers. We build and operate marketplaces, in
+                      partnership with sports teams and venues, for the transfer
+                      of seat licenses, seat location rights, wait list
+                      positions and RV/camping locations.
+                    </p>
+                    <img src="images/people.png" alt="people" />
+                    <div class="see-more">
+                      <a href="who-we-are" class="btn-all">See More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-7 col-md-6">
+                  <div class="about-video">
+                    <div class="about-video-wrapper border-active">
+                      <video
+                        width="100%"
+                        height="380"
+                        poster="images/video-poster.png"
+                        loop
+                        controls
+                        class="video-all"
+                      >
+                        <source src="Videos/who-we-are.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <a href="#" class="btn-play">
+                      <img src="images/btn-play.svg" alt="button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-wrapper about-work-wrapper">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-7 col-md-6">
+                  <div class="about-video">
+                    <div class="about-video-wrapper border-active">
+                      <video
+                        width="100%"
+                        height="380"
+                        poster="images/video-poster.png"
+                        loop
+                        controls
+                      >
+                        <source
+                          src="Videos/work-with-us.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                    <a href="#" class="btn-play">
+                      <img src="images/btn-play.svg" alt="button" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-5 col-md-6">
+                  <div class="about-all work-with-us">
+                    <h2>Work With Us</h2>
+                    <p>
+                      STR Marketplace works with sports teams and venues to
+                      build and operate team-branded websites for the sale and
+                      transfer of seat locations. Our marketplaces offer fans
+                      the ability to buy, sell and transfer ownership of Seat
+                      Licenses, Seat Location Rights, Wait List Positions and
+                      RV/Camping Location Rights.
+                    </p>
+                    <div class="work-list">
+                      <ul class="checkmark-list">
+                        <li>Generate Revenue</li>
+                        <li>Save Money</li>
+                      </ul>
+                      <ul class="checkmark-list">
+                        <li>Control Secondary Markets</li>
+                        <li>Transfers Online</li>
+                      </ul>
+                    </div>
+                    <a href="work-with-us" class="btn-all">See More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-wrapper">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-5 col-md-6">
+                  <div class="about-all how-it-work">
+                    <h2>How it Works</h2>
+                    <p>
+                      Our marketplaces offer a one-stop location for all sales
+                      and transfers. We offer fans the ability to buy and sell
+                      seat locations online (U.S. Patent 7099841), as well as
+                      the ability to complete Private Transfers (transfers to
+                      family or friends, as well as transfers due to death or
+                      divorce).
+                    </p>
+                    <div class="how-it-works-links">
+                      <a href="how-it-works">
+                        <img src="images/arrow-right.svg" alt="arrow" />
+                        How To Sell</a
+                      >
+                      <a href="how-it-works">
+                        <img src="images/arrow-right.svg" alt="arrow" />
+                        How To Buy</a
+                      >
+                      <a href="how-it-works">
+                        <img src="images/arrow-right.svg" alt="arrow" />
+                        How To Transfer</a
+                      >
+                    </div>
+                    <a href="how-it-works.html" class="btn-all">See More</a>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-7 col-md-6">
+                  <div class="about-video">
+                    <div class="about-video-wrapper border-active">
+                      <video
+                        width="100%"
+                        height="380"
+                        poster="images/video-poster.png"
+                        loop
+                        controls
+                      >
+                        <source
+                          src="Videos/how-it-works.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                    <a href="#" class="btn-play">
+                      <img src="images/btn-play.svg" alt="button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="lets_get_in_touch" class="lets-get-in-touch"></section>
+      </main>
+
+      <div id="footer"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+
+    <script>
+      $("#header").load("includes/header.html");
+      $("#footer").load("includes/footer.html");
+      $("#lets_get_in_touch").load("includes/lets-get-in-touch.html");
+    </script>
+  </body>
+</html>
